@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-Warp</title>
+    <!-- MDBootstrap CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+
+        <h1 class="text-center">Test Your Typing Speed</h1>
+
+        <div class="text-center my-4">
+            <button class="btn btn-primary" onclick="generateText('paragraph')">Paragraph</button>
+            <button class="btn btn-secondary" onclick="generateText('sentence')">Sentence</button>
+        </div>
+        <div class="text-center mt-4">
+            <p>Time: <span id="time">0</span>s</p>
+            <p>Speed: <span id="speed">0</span> WPM</p>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <div id="text-display" class="p-3 mb-4" style="background-color: #f8f9fa;"></div>
+                <textarea id="text-area" class="form-control" rows="10" placeholder="Start typing here..." oninput="calculateSpeed()"></textarea>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- MDBootstrap JS -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"
+    ></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

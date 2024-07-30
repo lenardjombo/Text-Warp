@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+#text-display {
+    font-size: 1.2em;
+    min-height: 100px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+#text-area {
+    resize: none;
+}
