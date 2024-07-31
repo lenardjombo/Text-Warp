@@ -1,4 +1,3 @@
-# Text-Warp
 <h1 id="title" align="center">Text-warp</h1>
 
 <p align="center"><img src="https://text-warp.netlify.app/" alt="project-image"></p>
