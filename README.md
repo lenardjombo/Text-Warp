@@ -4,11 +4,11 @@
 
 <p id="description">Text-Warp is a simple a typing test site aimed at helping anyone improve their typing speed .Users can choose to type sentences or paragraphs.</p>
 
-<h2>🚀 Demo</h2>
+<h2> Demo</h2>
 
 [https://text-warp.netlify.app/](https://text-warp.netlify.app/)
 
-<h2>🛠️ Installation Steps:</h2>
+<h2>🛠Installation Steps:</h2>
 
 <p>1. clone the project</p>
 
